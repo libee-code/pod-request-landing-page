@@ -82,6 +82,10 @@ body {
   text-align: center;
 }
 
+.title-white {
+  color: #fff;
+}
+
 .landing-text {
   text-align: center;
   color: #c2cbe5;

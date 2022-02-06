@@ -33,7 +33,9 @@ body {
 .background-image {
   /* take full-height of viewport - adjust to height of monitor/screen */
   height: 100vh;
-  background-image: linear-gradient(#121725, #121725),
+  background-image: linear-gradient(rgba(18, 23, 37, 0.95),
+      rgba(18, 23, 37, 0.95)
+    ),
     url(../images/mobile/image-host.jpg);
   background-blend-mode: multiply;
   /* crop out the extra part of the image to keep the image in its actual resolution - cover actually clips the image from all the directions hence on the smaller screens only a very little part of the image will be available */
